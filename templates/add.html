@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+{% from 'bootstrap5/form.html' import render_form %}
+
+{% block title %}Add A New Cafe{% endblock %}
+{% block content %}
+<div class="container">
+  <div class="row">
+    <div class="col-sm-12 col-md-8">
+      <h1>Add your origin city and your top 5 destinations to fly to 🧳</h1>
+
+      {{ render_form(form, novalidate=True) }}
+
+      <p class="space-above">
+        <a href="{{ url_for('flights') }}">See all flights</a>
+      </p>
+    </div>
+  </div>
+</div>
+
+{% endblock %}

@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+{% block title %}Flight Deals{% endblock %}
+
+{% block content %}
+<div class="jumbotron text-center">
+  <div class="container">
+    <h1 class="display-4">✈️️ Flights Deals ✈︎ જ⁀➴ ⛰︎</h1>
+    <p class="lead">Want to find the best deal for your next destination?</p>
+    <hr class="my-4" />
+    <p>
+      You've found the right place! Checkout this API website that is using <a href = "https://partners.kiwi.com/our-solutions/tequila/"> Kiwi API </a> find you the best flight deals.
+    </p>
+    <a
+      class="btn btn-warning btn-lg"
+      href="{{ url_for('flights') }}"
+      role="button"
+      >Show Me!</a
+    >
+  </div>
+</div>
+
+{% endblock %}

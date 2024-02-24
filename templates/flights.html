@@ -1,0 +1,51 @@
+{% extends 'base.html' %}
+{% from 'bootstrap5/form.html' import render_form %}
+{% block title %}All Cafes{% endblock %}
+
+{% block content %}
+<div class="container">
+    <div class="row">
+        <div class="col-sm-12">
+            <h1>Destinations 🌍</h1>
+
+            <table class="table table-dark table-striped table-hover" style="color: white">
+                <thead>
+                <tr>
+                    <td>Origin City</td>
+                    <td>Origin Airport</td>
+                    <td>Destination City </td>
+                    <td>Destination Airport</td>
+                    <td>Departure Date</td>
+                    <td>Return Date</td>
+                    <td>Airline</td>
+                    <td>Price [AED] </td>
+                </tr>
+                </thead>
+                <tbody>
+                {% for flight in all_flights %}
+                <tr>
+                    <td>{{ flight.origin_city }}</td>
+                    <td>{{ flight.origin_airport }}</td>
+                    <td>{{ flight.destination_city }}</td>
+                    <td>{{ flight.destination_airport }}</td>
+                    <td>{{ flight.out_date }}</td>
+                    <td>{{ flight.return_date }}</td>
+                    <td>{{ flight.airlines }}</td>
+                    <td>{{ flight.price }}</td>
+
+                </tr>
+                {% endfor %}
+                </tbody>
+            </table>
+
+            <a
+                    class="btn btn-warning btn-lg"
+                    href="{{ url_for('add_flight') }}"
+                    role="button"
+            >Add Your Next Destination!</a>
+            <p><a href="{{ url_for('home') }}">Return to index page</a></p>
+        </div>
+    </div>
+</div>
+
+{% endblock %}
