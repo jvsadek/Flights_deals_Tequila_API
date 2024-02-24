@@ -1,10 +1,10 @@
 # Flights Search API Wesbite
 
-![Contributors](https://img.shields.io/github/contributors/jvsadek/Cafes_Website?style=plastic)
-![Forks](https://img.shields.io/github/forks/jvsadek/Cafes_Website)
-![Stars](https://img.shields.io/github/stars/jvsadek/Cafes_Website)
-![Licence](https://img.shields.io/github/license/jvsadek/Cafes_Website)
-![Issues](https://img.shields.io/github/issues/jvsadek/Cafes_Website)
+![Contributors](https://img.shields.io/github/contributors/jvsadek/Flights_deals_Tequila_API?style=plastic)
+![Forks](https://img.shields.io/github/forks/jvsadek/Flights_deals_Tequila_API)
+![Stars](https://img.shields.io/github/stars/jvsadek/Flights_deals_Tequila_API)
+![Licence](https://img.shields.io/github/license/jvsadek/Flights_deals_Tequila_API)
+![Issues](https://img.shields.io/github/issues/jvsadek/Flights_deals_Tequila_API)
 
 ## 
 ### Description

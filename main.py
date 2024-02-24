@@ -28,7 +28,7 @@ cities = pd.read_csv('./simplemaps_worldcities_basicv1.76/worldcities.csv')
 
 # TEQUILA API KEYS
 TEQUILA_ENDPOINT = "https://tequila-api.kiwi.com"
-TEQUILA_API_KEY = "JCqyS2gjrLh2sHLdX0mGEZS0-R3ky4Nu"
+TEQUILA_API_KEY = "YOU_API_KEY"
 
 
 tomorrow = datetime.now() + timedelta(days=(40))
